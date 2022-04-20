@@ -1,14 +1,13 @@
-​#​include​ ​"​main.h​" 
+#​include​ ​"​main.h​" 
  ​/*​* 
- ​ * swap_int - swap variable values 
- ​ * @a: pointer 1 
- ​ * @b: pointer 2 
+ ​ * reset_to_98 - reset argument to 98 
+ ​ * @n: pointer 
  ​ * Return: void 
  ​*/ 
   
- ​void​ ​swap_int​(​int​ *a, ​int​ *b) 
+ ​void​ ​reset_to_98​(​int​ *n) 
  ​{ 
- ​        *a += *b; 
- ​        *b = *a - *b; 
- ​        *a = *a - *b; 
+  
+ ​        *n = ​98​; 
+  
  ​}
