@@ -14,7 +14,7 @@ for (k = 0; str[k] != '\0'; k++)
 {
 if (str[k] >= 'a' && str[k] <= 'z')
 {
-str[k] = str[k] -26 ;
+str[k] = str[k] - 26;
 }
 }
 
