@@ -1,12 +1,12 @@
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
- * free_dog - free memory
- *@d: array
- * Description: Free memory for struct
+ * free_dog - frees dogs.
+ * @d: struct dog.
+ *
+ * Return: no return.
  */
-
 void free_dog(dog_t *d)
 {
 	if (d)
